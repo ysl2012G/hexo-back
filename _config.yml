@@ -77,18 +77,18 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-#deploy:
-#  type: git
-#  repo: ssh://shuang@shuang1in.com:339//var/repo/blog.git 
-#  branch: master
 deploy:
-  type: rsync
-  host: www.shuang1in.com
-  user: shuang
-  shuang: /var/www/hexo
-  port: 339
-  delete: true
-  verbose: true
+  type: git
+  repo: ssh://shuang@shuang1in.com:339//var/repo/blog.git 
+  branch: master
+#deploy:
+#  type: rsync
+#  host: www.shuang1in.com
+#  user: shuang
+#  root: /var/www/hexo
+#  port: 339
+#  delete: true
+#  verbose: true
  
 # backup
 backup:
