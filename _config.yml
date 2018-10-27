@@ -1,4 +1,4 @@
-# Hexo Configuration
+## Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
@@ -77,10 +77,19 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+#deploy:
+#  type: git
+#  repo: ssh://shuang@shuang1in.com:339//var/repo/blog.git 
+#  branch: master
+
 deploy:
-  type: git
-  repo: ssh://shuang@shuang1in.com:339//var/repo/blog.git 
-  branch: master
+  type: rsync
+  host: www.shuang1in.com
+  user: shuang
+  shuang: /var/www/hexo
+  port: 339
+  delete: true
+  verbose: true
  
 # backup
 backup:
