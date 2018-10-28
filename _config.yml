@@ -59,8 +59,8 @@ default_category: uncategorized
 category_map:
   编程: coding
   随笔: blog
-tag_map:
-  Hexo博客: hexo
+tag_map: 
+  博客: hexo
   Java-Core: java
   Spring: spring
 
@@ -87,14 +87,7 @@ theme: next
 #  type: git
 #  repo: ssh://shuang@shuang1in.com:339//var/repo/blog.git 
 #  branch: master
-deploy:
-  type: rsync
-  host: www.shuang1in.com
-  user: shuang
-  root: /var/www/hexo
-  port: 339
-  delete: true
-  verbose: true
+
  
 # backup
 backup:

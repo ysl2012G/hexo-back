@@ -252,6 +252,7 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
+
   enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
@@ -297,6 +298,7 @@ highlight_theme: normal
 # ---------------------------------------------------------------
 font:
   enable: false
+
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host:
@@ -818,3 +820,6 @@ images: images
 
 # Theme version
 version: 5.1.4
+
+passage_end_tag:
+  enabled: true
