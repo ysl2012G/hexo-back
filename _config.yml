@@ -57,9 +57,8 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  开发: coding
+  编程: coding
   随笔: blog
-  编程相关: notes  
 tag_map:
   Hexo博客系统: hexo
   Java-Core: java
