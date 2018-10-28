@@ -12,6 +12,7 @@
   {% include '_third-party/analytics/index.swig' %}
 </head>
 
+
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
 
   {% set container_class = "container " %}
@@ -93,5 +94,7 @@
   color="255,255,255" opacity='0.5' zIndex="-2" count="20" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
   {% endif %}
 
+   <!-- 页面点击小红心 -->
+  <script type="text/javascript" src="/js/src/love.js"></script>                           
 </body>
 </html>
