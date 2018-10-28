@@ -98,14 +98,15 @@ backup:
 ## 博客基本改造
 
 ### 优秀设置网址连接
+
 网络上有大量优秀的博客改造文章，不一一复述了。
+
 [Hexo搭建博客教程](https://thief.one/2017/03/03/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/)
-
 [hexo的next主题个性化配置教程](https://segmentfault.com/a/1190000009544924#articleHeader11)
-
 [Markdown 语法](https://spacejmmy.github.io/2017/08/27/2017-08-27-Hexo%E5%8D%9A%E5%AE%A2%E6%92%B0%E5%86%99%E4%B9%8BMarkDown%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D/)
 
-###值得注意的官方改进
+### 值得注意的官方改进
+
 [next官方文档](https://theme-next.iissnan.com/getting-started.html)中有很多新的改进可以留意下。
 
 在`主题_confiy.yml` 中
