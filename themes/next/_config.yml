@@ -94,7 +94,10 @@ index_with_subtitle: false
 menu:
   home: / || home
   #about: /about/ || user
-  #tags: /tags/ || tags
+  coding: /categories/coding|| code-fork
+  #notes: /categories/notes|| notes
+  blog: /categories/blog || bath
+  tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
@@ -216,7 +219,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
@@ -645,6 +648,10 @@ tabs:
     tabs: false
     labels: true
   border_radius: 0
+
+  
+  
+  
 
 
 #! ---------------------------------------------------------------

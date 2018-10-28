@@ -1,8 +1,8 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
 categories: 
+tags:
 copyright: true
 #permalink: :c
 top: 0

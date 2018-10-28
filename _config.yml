@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 编程日记
+title: Shuang's Blog
 subtitle: 做一个专注的小码农
-description: 积累 | 分享 | 感悟
+description: 专注 | 积累 | 感悟
 keywords: Blog
 author: 双林
 language: zh-Hans
@@ -57,7 +57,13 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  开发: coding
+  随笔: blog
+  编程相关: notes  
 tag_map:
+  Hexo博客系统: hexo
+  Java-Core: java
+  Spring: spring
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
