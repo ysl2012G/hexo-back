@@ -84,6 +84,15 @@ deploy:
   delete: true  ## 是否先删除再更新
   verbose: true ## 显示调试信息
 ```
+### 远程服务器初始设置
+1. 登录已经有ssh公钥的用户`user`，在`/var/www/hexo`建立文件夹并设置权限：
+```bash
+sudo su -
+mkdir -p /var/www/hexo
+chown -R user:user /var/www/hexo
+```
+2. 通过[宝塔面板](www.bt.cn) 宝塔面板安装LNMP后，设置网站目录`/var/www/hexo`,[详情](https://injoy.work/archives/221bc971.html)
+
 
 ### 备份文件设置
 `站点`目录下_config.yml 采用第三方git方式备份
