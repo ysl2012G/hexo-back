@@ -41,5 +41,38 @@ Enter passphrase (empty for no passphrase):
 禁止远程登录root，禁止密码登录
 
 ## 本地安装Hexo博客
+
+### 利用包管理的方式安装nodejs
+
+*Ubuntu/Debian*:
+```
+# Using Ubuntu
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Using Debian, as root
+curl -sL https://deb.nodesource.com/setup_6.x | bash -
+apt-get install -y nodejs
+```
+*centos*:
+```
+curl -sL https://rpm.nodesource.com/setup_8.x | bash -
+```
+
+### npm安装Hexo博客及相关插件
+
+＃＃＃　安装
+```bash
+sudo npm install -g hexo-cli ## 安装hexo
+sudo npm install hexo-deployer-git --save ## git
+sudo npm install hexo-deployer-rsync --save ## rsync
+sudo npm install hexo-git-backup --save ##备份
+```
+
 ## 部署及备份
+### 生成本地博客
+```bash
+hexo init <hexo-folder> ##安装hexo
+```
+
 ## 博客基本改造
