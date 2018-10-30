@@ -97,7 +97,8 @@ menu:
   #about: /about/ || user
   coding: /categories/coding|| code-fork
   #notes: /categories/notes|| notes
-  notes: /categories/notes || bath
+  blog: /categories/blog || bath
+  notes: /categories/notes || book
   #tags: /tags/ || tags
   #categories: /categories/ || th
   #archives: /archives/ || archive
