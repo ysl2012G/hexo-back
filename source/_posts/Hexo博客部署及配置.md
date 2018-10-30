@@ -9,6 +9,10 @@ tags:
 password:
 ---
 
+第一篇blog就说说自己如何实践部署hexo博客的吧。
+
+<!-- more -->
+
 ## 配置SSH免密登录远程主机
 ### 生成密钥
 首先利用命令行生成一个ssh密钥。[SSH密钥介绍](https://wiki.archlinux.org/index.php/SSH_keys)

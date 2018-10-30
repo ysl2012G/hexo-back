@@ -1,3 +1,4 @@
+
 # ===============================================================
 # ========================= ATTENTION! ==========================
 # ===============================================================
@@ -96,7 +97,7 @@ menu:
   #about: /about/ || user
   coding: /categories/coding|| code-fork
   #notes: /categories/notes|| notes
-  blog: /categories/blog || bath
+  notes: /categories/notes || bath
   #tags: /tags/ || tags
   #categories: /categories/ || th
   #archives: /archives/ || archive
